@@ -18,6 +18,11 @@ public class Practice {
         byte byte1 = 2;
         System.out.println("byte0 + byte1 = " + (byte0 + byte1));
 
+        byte b0 = (byte) (Byte.MAX_VALUE + 1);
+        System.out.println(b0 + " = Max_byte + 1");
+        short s0 = (short) (Short.MIN_VALUE - 1);
+        System.out.println(s0 + " = Min_short - 1");
+
         if (a > e) {
             System.out.println(a + " > " + e);
         } else if (a < e) {
@@ -25,7 +30,6 @@ public class Practice {
         } else {
             System.out.println(a + " = " + e);
         }
-
 
     }
 }
